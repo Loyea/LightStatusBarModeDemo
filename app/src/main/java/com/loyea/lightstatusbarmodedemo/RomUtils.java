@@ -27,16 +27,17 @@ public class RomUtils {
     }
 
     public static int getLightStatausBarAvailableRomType() {
+        //魅族和小米M以上系统均使用系统原生实现
+        if (isAndroidMOrAbove()) {
+            return AvailableRomType.ANDROID_NATIVE;
+        }
+
         if (isMIUIV6OrAbove()) {
             return AvailableRomType.MIUI;
         }
 
         if (isFlymeV4OrAbove()) {
             return AvailableRomType.FLYME;
-        }
-
-        if (isAndroidMOrAbove()) {
-            return AvailableRomType.ANDROID_NATIVE;
         }
 
         return AvailableRomType.NA;
