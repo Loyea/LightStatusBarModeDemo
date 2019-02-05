@@ -9,7 +9,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 /**
- * Created by Loyea.com on 7月20日.
+ * Created by Loyea.com on 2016.07.20
  */
 public class LightStatusBarUtils {
 

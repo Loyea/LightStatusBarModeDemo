@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * Created by Loyea.com on 7月20日.
+ * Created by Loyea.com on 2016.07.20
  */
 public class RomUtils {
 
